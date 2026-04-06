@@ -1,0 +1,24 @@
+{
+  "name": "tunneler",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KindlyWork/Tunneler#readme",
+  "bugs": {
+    "url": "https://github.com/KindlyWork/Tunneler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KindlyWork/Tunneler.git"
+  },
+  "main": "app/cli/index.js",
+  "bin": {
+    "tunnel": "app/cli/index.js"
+  },
+  "scripts": {
+    "tunnel": "node app/cli/index.js",
+    "dev": "node -e \"setInterval(() => console.log('server running...'), 1000)\""
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
